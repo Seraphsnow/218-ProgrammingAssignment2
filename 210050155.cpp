@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
+#include <limits.h>
 using namespace std;
 
 #define fi first
 #define se second
-#define minInf -999999
 
 int main(int argc, char *argv[])
 {
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
         for (int j = 0; j < n; j++)
         {
             int maxb = 0, maxa = 0;
-            int diff = minInf;
+            int diff = INT_MIN;
 
             for (int k = 0; k < n; k++)
             {
@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
         for (int j = 0; j < n; j++)
         {
             int maxb = 0, maxa = 0;
-            int diff = minInf;
+            int diff = INT_MIN;
             for (int k = 0; k < n; k++)
             {
                 if (k != j)
